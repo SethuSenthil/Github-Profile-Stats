@@ -1,0 +1,27 @@
+{
+  "name": "github-profile-stats",
+  "version": "0.0.1",
+  "description": "Log and/or get notified when someone views your Github profile",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "geoip-lite": "^1.4.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "country-flag-emoji": "^1.0.3"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
